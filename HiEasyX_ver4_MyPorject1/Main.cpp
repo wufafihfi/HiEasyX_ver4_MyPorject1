@@ -41,7 +41,7 @@ int APIENTRY WinMain(HINSTANCE hInstance, HINSTANCE, LPSTR, int nCmdShow)
     HANDLE hMutex = CreateMutex(NULL, TRUE,
         L"Lcy#z15-bzhf-screenTools-912ef77d9b981a76");
     if (GetLastError() == ERROR_ALREADY_EXISTS) {
-        MessageBoxW(NULL, _T("错误码:114514100867891\nBZF_EXEERRO_REOPEN\n程序正在运行,无法重复打开此程序"), _T("不对啊"), MB_OK | MB_ICONERROR);
+        MessageBoxW(NULL, _T("错误码:114514100867891\nBZF_EXEERRO_REOPEN\n程序正在运行,无法重复打开此程序\n请在系统托盘中打开窗口"), _T("不对啊"), MB_OK | MB_ICONERROR);
         if (hMutex)
         {
             CloseHandle(hMutex);
