@@ -1,0 +1,270 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.16"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>HiEasyX: E:/_MYC/_VS_Project/HiEasyX/HiEasyX/main.cpp 源文件</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+  $(document).ready(initResizable);
+/* @license-end */</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="favorite.png"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">HiEasyX
+   &#160;<span id="projectnumber">Ver 0.3.0</span>
+   </div>
+   <div id="projectbrief">EasyX 全面扩展库</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.16 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','搜索');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(document).ready(function(){initNavTree('main_8cpp_source.html','');});
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">main.cpp</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="main_8cpp.html">浏览该文件的文档.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160; </div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_hi_easy_x_8h.html">HiEasyX.h</a>&quot;</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160; </div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="comment">// 小球数量</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno"><a class="line" href="main_8cpp.html#aba18267c5910ab986c9af3d7e9cff193">   11</a></span>&#160;<span class="preprocessor">#define BALL_NUM 14</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160; </div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="comment">// 小球半径</span></div>
+<div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="main_8cpp.html#aa4f8ea40228c3c3a9a7143b1d1ad8956">   14</a></span>&#160;<span class="preprocessor">#define RADIUS 70</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160; </div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="comment">// 球体</span></div>
+<div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="struct_ball.html">   17</a></span>&#160;<span class="keyword">struct </span><a class="code" href="struct_ball.html">Ball</a></div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;{</div>
+<div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="struct_ball.html#a0ff412dfc1e10a240755ef59fc56528b">   19</a></span>&#160;    <a class="code" href="class_hi_easy_x_1_1_image_block.html">hiex::ImageBlock</a> <a class="code" href="struct_ball.html#a0ff412dfc1e10a240755ef59fc56528b">img</a>;</div>
+<div class="line"><a name="l00020"></a><span class="lineno"><a class="line" href="struct_ball.html#a554b27b87bb6c7bc838855e84389c4fb">   20</a></span>&#160;    <span class="keywordtype">float</span> <a class="code" href="struct_ball.html#a024a44a6a49c92e2172c294563f6a149">x</a>, <a class="code" href="struct_ball.html#a554b27b87bb6c7bc838855e84389c4fb">y</a>;</div>
+<div class="line"><a name="l00021"></a><span class="lineno"><a class="line" href="struct_ball.html#a8d4edba480693b51cf0ced7831059624">   21</a></span>&#160;    <span class="keywordtype">float</span> <a class="code" href="struct_ball.html#a06a3ad46ce361f49d8bbb158f6eb71c7">vx</a>, <a class="code" href="struct_ball.html#a8d4edba480693b51cf0ced7831059624">vy</a>;</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;};</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160; </div>
+<div class="line"><a name="l00024"></a><span class="lineno"><a class="line" href="main_8cpp.html#a49733bfd0a1be1533ceaa7c7d3ef7fe8">   24</a></span>&#160;<a class="code" href="class_hi_easy_x_1_1_sys_button.html">hiex::SysButton</a> <a class="code" href="main_8cpp.html#a49733bfd0a1be1533ceaa7c7d3ef7fe8">btn</a>;            <span class="comment">// 按钮</span></div>
+<div class="line"><a name="l00025"></a><span class="lineno"><a class="line" href="main_8cpp.html#ab5862a4e058dc1fd39429a335e2473e5">   25</a></span>&#160;<span class="keywordtype">bool</span> <a class="code" href="main_8cpp.html#ab5862a4e058dc1fd39429a335e2473e5">show_outline</a> = <span class="keyword">false</span>;      <span class="comment">// 是否显示轮廓</span></div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160; </div>
+<div class="line"><a name="l00027"></a><span class="lineno"><a class="line" href="main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">   27</a></span>&#160;<span class="keywordtype">int</span> <a class="code" href="main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a>()</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;{</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <a class="code" href="class_hi_easy_x_1_1_window.html">hiex::Window</a> wnd(640, 480);         <span class="comment">// 创建窗口</span></div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <a class="code" href="class_hi_easy_x_1_1_canvas.html">hiex::Canvas</a> canvas;                <span class="comment">// 创建画布对象</span></div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    wnd.<a class="code" href="class_hi_easy_x_1_1_window.html#a749a74f5ca2960abd91e37011b8f939d">BindCanvas</a>(&amp;canvas);            <span class="comment">// 将窗口和画布绑定</span></div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160; </div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <span class="comment">// 手动刷新双缓冲</span></div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    <span class="comment">//hiex::EnableAutoFlush(false);</span></div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160; </div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    canvas.<a class="code" href="class_hi_easy_x_1_1_canvas.html#abf9d86ff5289ffa6884c2ed3f51f9f96">Clear</a>(<span class="keyword">true</span>, BLACK);          <span class="comment">// 设置背景色为黑色，清空画布</span></div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160; </div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <span class="comment">// 创建按钮，用于点击设置是否显示轮廓</span></div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <a class="code" href="main_8cpp.html#a49733bfd0a1be1533ceaa7c7d3ef7fe8">btn</a>.<a class="code" href="class_hi_easy_x_1_1_sys_control_base.html#af48127f089d5f354dbe8ee9d43ad67ff">Create</a>(wnd.<a class="code" href="class_hi_easy_x_1_1_window.html#a91c708f2f0fbb0c8df0d2cdbfebc26c7">GetHandle</a>(), 50, 50, 120, 30, L<span class="stringliteral">&quot;Hide outline&quot;</span>);</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <a class="code" href="main_8cpp.html#a49733bfd0a1be1533ceaa7c7d3ef7fe8">btn</a>.<a class="code" href="class_hi_easy_x_1_1_sys_button.html#ad6de077dd43cb25a60779b5514ddaf9e">RegisterMessage</a>([]() {</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        <a class="code" href="main_8cpp.html#ab5862a4e058dc1fd39429a335e2473e5">show_outline</a> = !<a class="code" href="main_8cpp.html#ab5862a4e058dc1fd39429a335e2473e5">show_outline</a>;</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <a class="code" href="main_8cpp.html#a49733bfd0a1be1533ceaa7c7d3ef7fe8">btn</a>.<a class="code" href="class_hi_easy_x_1_1_sys_control_base.html#a1dab4bb5df0da3253fdf8c7d25ef282f">SetText</a>(<a class="code" href="main_8cpp.html#ab5862a4e058dc1fd39429a335e2473e5">show_outline</a> ? L<span class="stringliteral">&quot;Show outline&quot;</span> : L<span class="stringliteral">&quot;Hide outline&quot;</span>);</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        });</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160; </div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <span class="comment">// 初始化随机数</span></div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    srand((UINT)time(<span class="keyword">nullptr</span>));</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160; </div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <a class="code" href="class_hi_easy_x_1_1_scene.html">hiex::Scene</a> scene;      <span class="comment">// 场景</span></div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <a class="code" href="class_hi_easy_x_1_1_layer.html">hiex::Layer</a> layer;      <span class="comment">// 图层</span></div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160; </div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <a class="code" href="struct_ball.html">Ball</a> balls[<a class="code" href="main_8cpp.html#aba18267c5910ab986c9af3d7e9cff193">BALL_NUM</a>];   <span class="comment">// 小球</span></div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160; </div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    <span class="comment">// 初始化小球</span></div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <span class="keywordflow">for</span> (<span class="keyword">auto</span>&amp; i : balls)</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    {</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        <span class="comment">// 位置和速度的初始化</span></div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;        i.<a class="code" href="struct_ball.html#a024a44a6a49c92e2172c294563f6a149">x</a> = (float)(rand() % canvas.<a class="code" href="class_hi_easy_x_1_1_canvas.html#a0c778d3005365fd6314d9bad67ce1b6d">GetWidth</a>());</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;        i.y = (float)(rand() % canvas.<a class="code" href="class_hi_easy_x_1_1_canvas.html#a643398621198d564fd5c6c6799475a9a">GetHeight</a>());</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        i.vx = rand() % 5 * (rand() % 2 ? 2.0f : -2.0f);</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;        i.vy = rand() % 5 * (rand() % 2 ? 2.0f : -2.0f);</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;        <span class="keywordflow">if</span> (i.vx == 0)</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;            i.vx = 3;</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;        <span class="keywordflow">if</span> (i.vy == 0)</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;            i.vy = 3;</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160; </div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;        <span class="comment">// 小球的图像块设置</span></div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;        i.img.CreateCanvas(<a class="code" href="main_8cpp.html#aa4f8ea40228c3c3a9a7143b1d1ad8956">RADIUS</a> * 2, <a class="code" href="main_8cpp.html#aa4f8ea40228c3c3a9a7143b1d1ad8956">RADIUS</a> * 2);</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;        i.img.GetCanvas()-&gt;Clear();</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;        i.img.GetCanvas()-&gt;SolidCircle(<a class="code" href="main_8cpp.html#aa4f8ea40228c3c3a9a7143b1d1ad8956">RADIUS</a>, <a class="code" href="main_8cpp.html#aa4f8ea40228c3c3a9a7143b1d1ad8956">RADIUS</a>, <a class="code" href="main_8cpp.html#aa4f8ea40228c3c3a9a7143b1d1ad8956">RADIUS</a>, <span class="keyword">true</span>, rand() % 0xffffff);</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;        <a class="code" href="_hi_func_8cpp.html#a4a99ff5c68bcf5b9aa1ace836ebb589a">ReverseAlpha</a>(i.img.GetCanvas()-&gt;GetBuffer(), i.img.GetCanvas()-&gt;GetBufferSize());</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160; </div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;        <span class="comment">// 设置图像块透明度</span></div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;        i.img.alpha = 200;</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;        i.img.bUseSrcAlpha = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160; </div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;        <span class="comment">// 加入图像块到图层</span></div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;        layer.push_back(&amp;i.img);</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    }</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160; </div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    <span class="comment">// 加入图层到场景</span></div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    scene.push_back(&amp;layer);</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160; </div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    <span class="comment">// 主循环（窗口关闭或按下按键时退出）</span></div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    <span class="keywordflow">while</span> (wnd.<a class="code" href="class_hi_easy_x_1_1_window.html#a0579ad3a25352cdf8ad5de9434eb1380">IsAlive</a>() &amp;&amp; !<a class="code" href="_hi_window_8h.html#aba7e39ba456baa77d6ef5db677adbd31">peekmessage</a>(<span class="keyword">nullptr</span>, EM_CHAR))</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    {</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;        <span class="keywordflow">for</span> (<span class="keyword">auto</span>&amp; i : balls)</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;        {</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;            i.x += i.vx;</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;            i.y += i.vy;</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160; </div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;            <span class="comment">// 碰撞判定</span></div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;            <span class="keywordflow">if</span> (i.x - <a class="code" href="main_8cpp.html#aa4f8ea40228c3c3a9a7143b1d1ad8956">RADIUS</a> &lt; 0)</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;            {</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;                i.x = <a class="code" href="main_8cpp.html#aa4f8ea40228c3c3a9a7143b1d1ad8956">RADIUS</a>;</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;                i.vx = -i.vx;</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;            }</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;            <span class="keywordflow">if</span> (i.x + <a class="code" href="main_8cpp.html#aa4f8ea40228c3c3a9a7143b1d1ad8956">RADIUS</a> &gt; canvas.<a class="code" href="class_hi_easy_x_1_1_canvas.html#a0c778d3005365fd6314d9bad67ce1b6d">GetWidth</a>())</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;            {</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;                i.x = (float)canvas.<a class="code" href="class_hi_easy_x_1_1_canvas.html#a0c778d3005365fd6314d9bad67ce1b6d">GetWidth</a>() - <a class="code" href="main_8cpp.html#aa4f8ea40228c3c3a9a7143b1d1ad8956">RADIUS</a>;</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;                i.vx = -i.vx;</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;            }</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;            <span class="keywordflow">if</span> (i.y - <a class="code" href="main_8cpp.html#aa4f8ea40228c3c3a9a7143b1d1ad8956">RADIUS</a> &lt; 0)</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;            {</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;                i.y = <a class="code" href="main_8cpp.html#aa4f8ea40228c3c3a9a7143b1d1ad8956">RADIUS</a>;</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;                i.vy = -i.vy;</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;            }</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;            <span class="keywordflow">if</span> (i.y + <a class="code" href="main_8cpp.html#aa4f8ea40228c3c3a9a7143b1d1ad8956">RADIUS</a> &gt; canvas.<a class="code" href="class_hi_easy_x_1_1_canvas.html#a643398621198d564fd5c6c6799475a9a">GetHeight</a>())</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;            {</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;                i.y = (float)canvas.<a class="code" href="class_hi_easy_x_1_1_canvas.html#a643398621198d564fd5c6c6799475a9a">GetHeight</a>() - <a class="code" href="main_8cpp.html#aa4f8ea40228c3c3a9a7143b1d1ad8956">RADIUS</a>;</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;                i.vy = -i.vy;</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;            }</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160; </div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;            <span class="comment">// 更新位置</span></div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;            i.img.SetPos((<span class="keywordtype">int</span>)i.x - <a class="code" href="main_8cpp.html#aa4f8ea40228c3c3a9a7143b1d1ad8956">RADIUS</a>, (<span class="keywordtype">int</span>)i.y - <a class="code" href="main_8cpp.html#aa4f8ea40228c3c3a9a7143b1d1ad8956">RADIUS</a>);</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;        }</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160; </div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;        <span class="keywordflow">if</span> (wnd.<a class="code" href="class_hi_easy_x_1_1_window.html#a84d6746919ec44df9e79a50ec0f5bf8e">BeginTask</a>())</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;        {</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;            <span class="comment">// 渲染场景</span></div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;            scene.<a class="code" href="class_hi_easy_x_1_1_scene.html#a656bf1634e7e28f434ae1ae7b078a2b7">Render</a>(canvas.<a class="code" href="class_hi_easy_x_1_1_canvas.html#a27b704727adcbebe0aa20088110145d5">GetImagePointer</a>(), <a class="code" href="main_8cpp.html#ab5862a4e058dc1fd39429a335e2473e5">show_outline</a>);</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160; </div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;            <span class="comment">// 手动刷新双缓冲</span></div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;            <span class="comment">//wnd.FlushDrawing();</span></div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160; </div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;            wnd.<a class="code" href="class_hi_easy_x_1_1_window.html#ab710116368877655a6952b868f54d9ad">EndTask</a>();</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;            wnd.<a class="code" href="class_hi_easy_x_1_1_window.html#ad945eb8c2be0269943ccc9a9ced7dbef">Redraw</a>();</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;        }</div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160; </div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;        <span class="comment">// 平衡帧率</span></div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;        <a class="code" href="namespace_hi_easy_x.html#a2c526917361942a86bd4fa1f583dd984">hiex::DelayFPS</a>(24);</div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;    }</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160; </div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;    <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;}</div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<div class="ttc" id="aclass_hi_easy_x_1_1_window_html_a749a74f5ca2960abd91e37011b8f939d"><div class="ttname"><a href="class_hi_easy_x_1_1_window.html#a749a74f5ca2960abd91e37011b8f939d">HiEasyX::Window::BindCanvas</a></div><div class="ttdeci">void BindCanvas(Canvas *pCanvas)</div><div class="ttdef"><b>Definition:</b> <a href="_hi_window_8cpp_source.html#l01749">HiWindow.cpp:1749</a></div></div>
+<div class="ttc" id="aclass_hi_easy_x_1_1_canvas_html_a643398621198d564fd5c6c6799475a9a"><div class="ttname"><a href="class_hi_easy_x_1_1_canvas.html#a643398621198d564fd5c6c6799475a9a">HiEasyX::Canvas::GetHeight</a></div><div class="ttdeci">int GetHeight() const</div><div class="ttdef"><b>Definition:</b> <a href="_hi_canvas_8h_source.html#l00282">HiCanvas.h:282</a></div></div>
+<div class="ttc" id="a_hi_func_8cpp_html_a4a99ff5c68bcf5b9aa1ace836ebb589a"><div class="ttname"><a href="_hi_func_8cpp.html#a4a99ff5c68bcf5b9aa1ace836ebb589a">ReverseAlpha</a></div><div class="ttdeci">DWORD * ReverseAlpha(DWORD *pBuf, int size)</div><div class="ttdef"><b>Definition:</b> <a href="_hi_func_8cpp_source.html#l00037">HiFunc.cpp:37</a></div></div>
+<div class="ttc" id="aclass_hi_easy_x_1_1_window_html"><div class="ttname"><a href="class_hi_easy_x_1_1_window.html">HiEasyX::Window</a></div><div class="ttdoc">窗口</div><div class="ttdef"><b>Definition:</b> <a href="_hi_window_8h_source.html#l00118">HiWindow.h:118</a></div></div>
+<div class="ttc" id="astruct_ball_html_a024a44a6a49c92e2172c294563f6a149"><div class="ttname"><a href="struct_ball.html#a024a44a6a49c92e2172c294563f6a149">Ball::x</a></div><div class="ttdeci">float x</div><div class="ttdef"><b>Definition:</b> <a href="main_8cpp_source.html#l00020">main.cpp:20</a></div></div>
+<div class="ttc" id="amain_8cpp_html_aba18267c5910ab986c9af3d7e9cff193"><div class="ttname"><a href="main_8cpp.html#aba18267c5910ab986c9af3d7e9cff193">BALL_NUM</a></div><div class="ttdeci">#define BALL_NUM</div><div class="ttdoc">透明小球边界碰撞示例</div><div class="ttdef"><b>Definition:</b> <a href="main_8cpp_source.html#l00011">main.cpp:11</a></div></div>
+<div class="ttc" id="aclass_hi_easy_x_1_1_window_html_a84d6746919ec44df9e79a50ec0f5bf8e"><div class="ttname"><a href="class_hi_easy_x_1_1_window.html#a84d6746919ec44df9e79a50ec0f5bf8e">HiEasyX::Window::BeginTask</a></div><div class="ttdeci">bool BeginTask()</div><div class="ttdef"><b>Definition:</b> <a href="_hi_window_8cpp_source.html#l01772">HiWindow.cpp:1772</a></div></div>
+<div class="ttc" id="aclass_hi_easy_x_1_1_canvas_html_a27b704727adcbebe0aa20088110145d5"><div class="ttname"><a href="class_hi_easy_x_1_1_canvas.html#a27b704727adcbebe0aa20088110145d5">HiEasyX::Canvas::GetImagePointer</a></div><div class="ttdeci">IMAGE * GetImagePointer()</div><div class="ttdef"><b>Definition:</b> <a href="_hi_canvas_8h_source.html#l00257">HiCanvas.h:257</a></div></div>
+<div class="ttc" id="astruct_ball_html_a554b27b87bb6c7bc838855e84389c4fb"><div class="ttname"><a href="struct_ball.html#a554b27b87bb6c7bc838855e84389c4fb">Ball::y</a></div><div class="ttdeci">float y</div><div class="ttdef"><b>Definition:</b> <a href="main_8cpp_source.html#l00020">main.cpp:20</a></div></div>
+<div class="ttc" id="astruct_ball_html_a8d4edba480693b51cf0ced7831059624"><div class="ttname"><a href="struct_ball.html#a8d4edba480693b51cf0ced7831059624">Ball::vy</a></div><div class="ttdeci">float vy</div><div class="ttdef"><b>Definition:</b> <a href="main_8cpp_source.html#l00021">main.cpp:21</a></div></div>
+<div class="ttc" id="amain_8cpp_html_a49733bfd0a1be1533ceaa7c7d3ef7fe8"><div class="ttname"><a href="main_8cpp.html#a49733bfd0a1be1533ceaa7c7d3ef7fe8">btn</a></div><div class="ttdeci">hiex::SysButton btn</div><div class="ttdef"><b>Definition:</b> <a href="main_8cpp_source.html#l00024">main.cpp:24</a></div></div>
+<div class="ttc" id="aclass_hi_easy_x_1_1_window_html_ab710116368877655a6952b868f54d9ad"><div class="ttname"><a href="class_hi_easy_x_1_1_window.html#ab710116368877655a6952b868f54d9ad">HiEasyX::Window::EndTask</a></div><div class="ttdeci">void EndTask(bool flush=true)</div><div class="ttdef"><b>Definition:</b> <a href="_hi_window_8cpp_source.html#l01784">HiWindow.cpp:1784</a></div></div>
+<div class="ttc" id="anamespace_hi_easy_x_html_a2c526917361942a86bd4fa1f583dd984"><div class="ttname"><a href="namespace_hi_easy_x.html#a2c526917361942a86bd4fa1f583dd984">HiEasyX::DelayFPS</a></div><div class="ttdeci">void DelayFPS(int fps, bool wait_long)</div><div class="ttdoc">根据目标帧率延时</div><div class="ttdef"><b>Definition:</b> <a href="_hi_f_p_s_8cpp_source.html#l00011">HiFPS.cpp:11</a></div></div>
+<div class="ttc" id="aclass_hi_easy_x_1_1_scene_html_a656bf1634e7e28f434ae1ae7b078a2b7"><div class="ttname"><a href="class_hi_easy_x_1_1_scene.html#a656bf1634e7e28f434ae1ae7b078a2b7">HiEasyX::Scene::Render</a></div><div class="ttdeci">void Render(IMAGE *pImg=nullptr, bool bShowAllOutline=false, bool bShowAllText=true)</div><div class="ttdoc">渲染到画布</div><div class="ttdef"><b>Definition:</b> <a href="_hi_canvas_8cpp_source.html#l02028">HiCanvas.cpp:2028</a></div></div>
+<div class="ttc" id="amain_8cpp_html_aa4f8ea40228c3c3a9a7143b1d1ad8956"><div class="ttname"><a href="main_8cpp.html#aa4f8ea40228c3c3a9a7143b1d1ad8956">RADIUS</a></div><div class="ttdeci">#define RADIUS</div><div class="ttdef"><b>Definition:</b> <a href="main_8cpp_source.html#l00014">main.cpp:14</a></div></div>
+<div class="ttc" id="aclass_hi_easy_x_1_1_canvas_html"><div class="ttname"><a href="class_hi_easy_x_1_1_canvas.html">HiEasyX::Canvas</a></div><div class="ttdoc">画布</div><div class="ttdef"><b>Definition:</b> <a href="_hi_canvas_8h_source.html#l00117">HiCanvas.h:117</a></div></div>
+<div class="ttc" id="a_hi_window_8h_html_aba7e39ba456baa77d6ef5db677adbd31"><div class="ttname"><a href="_hi_window_8h.html#aba7e39ba456baa77d6ef5db677adbd31">peekmessage</a></div><div class="ttdeci">#define peekmessage</div><div class="ttdef"><b>Definition:</b> <a href="_hi_window_8h_source.html#l00870">HiWindow.h:870</a></div></div>
+<div class="ttc" id="aclass_hi_easy_x_1_1_canvas_html_abf9d86ff5289ffa6884c2ed3f51f9f96"><div class="ttname"><a href="class_hi_easy_x_1_1_canvas.html#abf9d86ff5289ffa6884c2ed3f51f9f96">HiEasyX::Canvas::Clear</a></div><div class="ttdeci">void Clear(bool isSetColor=false, COLORREF bkcolor=BLACK)</div><div class="ttdef"><b>Definition:</b> <a href="_hi_canvas_8cpp_source.html#l00465">HiCanvas.cpp:465</a></div></div>
+<div class="ttc" id="aclass_hi_easy_x_1_1_window_html_a0579ad3a25352cdf8ad5de9434eb1380"><div class="ttname"><a href="class_hi_easy_x_1_1_window.html#a0579ad3a25352cdf8ad5de9434eb1380">HiEasyX::Window::IsAlive</a></div><div class="ttdeci">bool IsAlive()</div><div class="ttdef"><b>Definition:</b> <a href="_hi_window_8cpp_source.html#l01734">HiWindow.cpp:1734</a></div></div>
+<div class="ttc" id="amain_8cpp_html_ae66f6b31b5ad750f1fe042a706a4e3d4"><div class="ttname"><a href="main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a></div><div class="ttdeci">int main()</div><div class="ttdef"><b>Definition:</b> <a href="main_8cpp_source.html#l00027">main.cpp:27</a></div></div>
+<div class="ttc" id="aclass_hi_easy_x_1_1_window_html_a91c708f2f0fbb0c8df0d2cdbfebc26c7"><div class="ttname"><a href="class_hi_easy_x_1_1_window.html#a91c708f2f0fbb0c8df0d2cdbfebc26c7">HiEasyX::Window::GetHandle</a></div><div class="ttdeci">HWND GetHandle()</div><div class="ttdef"><b>Definition:</b> <a href="_hi_window_8cpp_source.html#l01724">HiWindow.cpp:1724</a></div></div>
+<div class="ttc" id="astruct_ball_html"><div class="ttname"><a href="struct_ball.html">Ball</a></div><div class="ttdef"><b>Definition:</b> <a href="main_8cpp_source.html#l00017">main.cpp:17</a></div></div>
+<div class="ttc" id="aclass_hi_easy_x_1_1_sys_control_base_html_af48127f089d5f354dbe8ee9d43ad67ff"><div class="ttname"><a href="class_hi_easy_x_1_1_sys_control_base.html#af48127f089d5f354dbe8ee9d43ad67ff">HiEasyX::SysControlBase::Create</a></div><div class="ttdeci">HWND Create(HWND hParent, RECT rct, std::wstring strText=L&quot;&quot;)</div><div class="ttdef"><b>Definition:</b> <a href="_sys_control_base_8cpp_source.html#l00058">SysControlBase.cpp:58</a></div></div>
+<div class="ttc" id="aclass_hi_easy_x_1_1_layer_html"><div class="ttname"><a href="class_hi_easy_x_1_1_layer.html">HiEasyX::Layer</a></div><div class="ttdoc">图层</div><div class="ttdef"><b>Definition:</b> <a href="_hi_canvas_8h_source.html#l00835">HiCanvas.h:835</a></div></div>
+<div class="ttc" id="aclass_hi_easy_x_1_1_sys_control_base_html_a1dab4bb5df0da3253fdf8c7d25ef282f"><div class="ttname"><a href="class_hi_easy_x_1_1_sys_control_base.html#a1dab4bb5df0da3253fdf8c7d25ef282f">HiEasyX::SysControlBase::SetText</a></div><div class="ttdeci">void SetText(std::wstring wstr)</div><div class="ttdef"><b>Definition:</b> <a href="_sys_control_base_8cpp_source.html#l00137">SysControlBase.cpp:137</a></div></div>
+<div class="ttc" id="aclass_hi_easy_x_1_1_sys_button_html"><div class="ttname"><a href="class_hi_easy_x_1_1_sys_button.html">HiEasyX::SysButton</a></div><div class="ttdoc">系统按钮控件</div><div class="ttdef"><b>Definition:</b> <a href="_sys_button_8h_source.html#l00018">SysButton.h:18</a></div></div>
+<div class="ttc" id="a_hi_easy_x_8h_html"><div class="ttname"><a href="_hi_easy_x_8h.html">HiEasyX.h</a></div><div class="ttdoc">HiEasyX 库头文件</div></div>
+<div class="ttc" id="amain_8cpp_html_ab5862a4e058dc1fd39429a335e2473e5"><div class="ttname"><a href="main_8cpp.html#ab5862a4e058dc1fd39429a335e2473e5">show_outline</a></div><div class="ttdeci">bool show_outline</div><div class="ttdef"><b>Definition:</b> <a href="main_8cpp_source.html#l00025">main.cpp:25</a></div></div>
+<div class="ttc" id="aclass_hi_easy_x_1_1_window_html_ad945eb8c2be0269943ccc9a9ced7dbef"><div class="ttname"><a href="class_hi_easy_x_1_1_window.html#ad945eb8c2be0269943ccc9a9ced7dbef">HiEasyX::Window::Redraw</a></div><div class="ttdeci">void Redraw()</div><div class="ttdoc">重绘窗口</div><div class="ttdef"><b>Definition:</b> <a href="_hi_window_8cpp_source.html#l01848">HiWindow.cpp:1848</a></div></div>
+<div class="ttc" id="aclass_hi_easy_x_1_1_canvas_html_a0c778d3005365fd6314d9bad67ce1b6d"><div class="ttname"><a href="class_hi_easy_x_1_1_canvas.html#a0c778d3005365fd6314d9bad67ce1b6d">HiEasyX::Canvas::GetWidth</a></div><div class="ttdeci">int GetWidth() const</div><div class="ttdef"><b>Definition:</b> <a href="_hi_canvas_8h_source.html#l00281">HiCanvas.h:281</a></div></div>
+<div class="ttc" id="aclass_hi_easy_x_1_1_image_block_html"><div class="ttname"><a href="class_hi_easy_x_1_1_image_block.html">HiEasyX::ImageBlock</a></div><div class="ttdoc">图像块</div><div class="ttdef"><b>Definition:</b> <a href="_hi_canvas_8h_source.html#l00771">HiCanvas.h:771</a></div></div>
+<div class="ttc" id="astruct_ball_html_a0ff412dfc1e10a240755ef59fc56528b"><div class="ttname"><a href="struct_ball.html#a0ff412dfc1e10a240755ef59fc56528b">Ball::img</a></div><div class="ttdeci">hiex::ImageBlock img</div><div class="ttdef"><b>Definition:</b> <a href="main_8cpp_source.html#l00019">main.cpp:19</a></div></div>
+<div class="ttc" id="aclass_hi_easy_x_1_1_scene_html"><div class="ttname"><a href="class_hi_easy_x_1_1_scene.html">HiEasyX::Scene</a></div><div class="ttdef"><b>Definition:</b> <a href="_hi_canvas_8h_source.html#l00876">HiCanvas.h:876</a></div></div>
+<div class="ttc" id="astruct_ball_html_a06a3ad46ce361f49d8bbb158f6eb71c7"><div class="ttname"><a href="struct_ball.html#a06a3ad46ce361f49d8bbb158f6eb71c7">Ball::vx</a></div><div class="ttdeci">float vx</div><div class="ttdef"><b>Definition:</b> <a href="main_8cpp_source.html#l00021">main.cpp:21</a></div></div>
+<div class="ttc" id="aclass_hi_easy_x_1_1_sys_button_html_ad6de077dd43cb25a60779b5514ddaf9e"><div class="ttname"><a href="class_hi_easy_x_1_1_sys_button.html#ad6de077dd43cb25a60779b5514ddaf9e">HiEasyX::SysButton::RegisterMessage</a></div><div class="ttdeci">void RegisterMessage(void(*pFunc)())</div><div class="ttdoc">注册点击消息</div><div class="ttdef"><b>Definition:</b> <a href="_sys_button_8cpp_source.html#l00048">SysButton.cpp:48</a></div></div>
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_ac806fb56071b04220f9882214ac4d4d.html">HiEasyX</a></li><li class="navelem"><a class="el" href="main_8cpp.html">main.cpp</a></li>
+    <li class="footer">制作者
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.16 </li>
+  </ul>
+</div>
+</body>
+</html>

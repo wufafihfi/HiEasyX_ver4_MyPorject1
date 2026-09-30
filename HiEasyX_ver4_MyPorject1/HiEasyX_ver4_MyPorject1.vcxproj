@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{0940f5f4-2ba3-464c-9343-f0f19679d0bf}</ProjectGuid>
+    <RootNamespace>HiEasyXver4MyPorject1</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\桌面互通\压缩文件\C++\解压后\HiEasyX-Ver0.4.1\HiEasyX-Ver0.4.1\HiEasyX;C:\Users\NewAdmin\source\repos\simulater_2_learn_thread_physics\package\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>User32.lib;sfml-graphics.lib;sfml-window.lib;sfml-system.lib;opengl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\Users\NewAdmin\vcpkg\installed\x86-windows\lib</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\..\桌面互通\压缩文件\C++\解压后\HiEasyX-Ver0.4.1\HiEasyX-Ver0.4.1\HiEasyX\HiEasyX\HiCanvas.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\桌面互通\压缩文件\C++\解压后\HiEasyX-Ver0.4.1\HiEasyX-Ver0.4.1\HiEasyX\HiEasyX\HiContainer.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\桌面互通\压缩文件\C++\解压后\HiEasyX-Ver0.4.1\HiEasyX-Ver0.4.1\HiEasyX\HiEasyX\HiDrawingProperty.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\桌面互通\压缩文件\C++\解压后\HiEasyX-Ver0.4.1\HiEasyX-Ver0.4.1\HiEasyX\HiEasyX\HiFPS.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\桌面互通\压缩文件\C++\解压后\HiEasyX-Ver0.4.1\HiEasyX-Ver0.4.1\HiEasyX\HiEasyX\HiFunc.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\桌面互通\压缩文件\C++\解压后\HiEasyX-Ver0.4.1\HiEasyX-Ver0.4.1\HiEasyX\HiEasyX\HiGdiplus.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\桌面互通\压缩文件\C++\解压后\HiEasyX-Ver0.4.1\HiEasyX-Ver0.4.1\HiEasyX\HiEasyX\HiGif.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\桌面互通\压缩文件\C++\解压后\HiEasyX-Ver0.4.1\HiEasyX-Ver0.4.1\HiEasyX\HiEasyX\HiGUI\Button.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\桌面互通\压缩文件\C++\解压后\HiEasyX-Ver0.4.1\HiEasyX-Ver0.4.1\HiEasyX\HiEasyX\HiGUI\ControlBase.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\桌面互通\压缩文件\C++\解压后\HiEasyX-Ver0.4.1\HiEasyX-Ver0.4.1\HiEasyX\HiEasyX\HiGUI\Page.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\桌面互通\压缩文件\C++\解压后\HiEasyX-Ver0.4.1\HiEasyX-Ver0.4.1\HiEasyX\HiEasyX\HiGUI\ProgressCtrl.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\桌面互通\压缩文件\C++\解压后\HiEasyX-Ver0.4.1\HiEasyX-Ver0.4.1\HiEasyX\HiEasyX\HiGUI\ScrollBar.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\桌面互通\压缩文件\C++\解压后\HiEasyX-Ver0.4.1\HiEasyX-Ver0.4.1\HiEasyX\HiEasyX\HiGUI\Static.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\桌面互通\压缩文件\C++\解压后\HiEasyX-Ver0.4.1\HiEasyX-Ver0.4.1\HiEasyX\HiEasyX\HiIcon.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\桌面互通\压缩文件\C++\解压后\HiEasyX-Ver0.4.1\HiEasyX-Ver0.4.1\HiEasyX\HiEasyX\HiMouseDrag.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\桌面互通\压缩文件\C++\解压后\HiEasyX-Ver0.4.1\HiEasyX-Ver0.4.1\HiEasyX\HiEasyX\HiMusicMCI.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\桌面互通\压缩文件\C++\解压后\HiEasyX-Ver0.4.1\HiEasyX-Ver0.4.1\HiEasyX\HiEasyX\HiStart.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\桌面互通\压缩文件\C++\解压后\HiEasyX-Ver0.4.1\HiEasyX-Ver0.4.1\HiEasyX\HiEasyX\HiSysGUI\SysButton.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\桌面互通\压缩文件\C++\解压后\HiEasyX-Ver0.4.1\HiEasyX-Ver0.4.1\HiEasyX\HiEasyX\HiSysGUI\SysCheckBox.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\桌面互通\压缩文件\C++\解压后\HiEasyX-Ver0.4.1\HiEasyX-Ver0.4.1\HiEasyX\HiEasyX\HiSysGUI\SysComboBox.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\桌面互通\压缩文件\C++\解压后\HiEasyX-Ver0.4.1\HiEasyX-Ver0.4.1\HiEasyX\HiEasyX\HiSysGUI\SysControlBase.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\桌面互通\压缩文件\C++\解压后\HiEasyX-Ver0.4.1\HiEasyX-Ver0.4.1\HiEasyX\HiEasyX\HiSysGUI\SysEdit.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\桌面互通\压缩文件\C++\解压后\HiEasyX-Ver0.4.1\HiEasyX-Ver0.4.1\HiEasyX\HiEasyX\HiSysGUI\SysGroup.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\桌面互通\压缩文件\C++\解压后\HiEasyX-Ver0.4.1\HiEasyX-Ver0.4.1\HiEasyX\HiEasyX\HiSysGUI\SysGroupBox.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\桌面互通\压缩文件\C++\解压后\HiEasyX-Ver0.4.1\HiEasyX-Ver0.4.1\HiEasyX\HiEasyX\HiSysGUI\SysRadioButton.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\桌面互通\压缩文件\C++\解压后\HiEasyX-Ver0.4.1\HiEasyX-Ver0.4.1\HiEasyX\HiEasyX\HiSysGUI\SysStatic.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\桌面互通\压缩文件\C++\解压后\HiEasyX-Ver0.4.1\HiEasyX-Ver0.4.1\HiEasyX\HiEasyX\HiWindow.cpp" />
+    <ClCompile Include="include\LS\LsUI\LsDPIManager.cpp" />
+    <ClCompile Include="include\LS\LsUI\LsButton.cpp" />
+    <ClCompile Include="include\LS\LsUI\LsSlider.cpp" />
+    <ClCompile Include="include\LS\LsWindowStyle.cpp" />
+    <ClCompile Include="include\MainWindow.cpp" />
+    <ClCompile Include="include\transparentWindow.cpp" />
+    <ClCompile Include="Main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\..\桌面互通\压缩文件\C++\解压后\HiEasyX-Ver0.4.1\HiEasyX-Ver0.4.1\HiEasyX\HiEasyX.h" />
+    <ClInclude Include="..\..\..\..\..\..\桌面互通\压缩文件\C++\解压后\HiEasyX-Ver0.4.1\HiEasyX-Ver0.4.1\HiEasyX\HiEasyX\HiCanvas.h" />
+    <ClInclude Include="..\..\..\..\..\..\桌面互通\压缩文件\C++\解压后\HiEasyX-Ver0.4.1\HiEasyX-Ver0.4.1\HiEasyX\HiEasyX\HiContainer.h" />
+    <ClInclude Include="..\..\..\..\..\..\桌面互通\压缩文件\C++\解压后\HiEasyX-Ver0.4.1\HiEasyX-Ver0.4.1\HiEasyX\HiEasyX\HiDef.h" />
+    <ClInclude Include="..\..\..\..\..\..\桌面互通\压缩文件\C++\解压后\HiEasyX-Ver0.4.1\HiEasyX-Ver0.4.1\HiEasyX\HiEasyX\HiDrawingProperty.h" />
+    <ClInclude Include="..\..\..\..\..\..\桌面互通\压缩文件\C++\解压后\HiEasyX-Ver0.4.1\HiEasyX-Ver0.4.1\HiEasyX\HiEasyX\HiFPS.h" />
+    <ClInclude Include="..\..\..\..\..\..\桌面互通\压缩文件\C++\解压后\HiEasyX-Ver0.4.1\HiEasyX-Ver0.4.1\HiEasyX\HiEasyX\HiFunc.h" />
+    <ClInclude Include="..\..\..\..\..\..\桌面互通\压缩文件\C++\解压后\HiEasyX-Ver0.4.1\HiEasyX-Ver0.4.1\HiEasyX\HiEasyX\HiGdiplus.h" />
+    <ClInclude Include="..\..\..\..\..\..\桌面互通\压缩文件\C++\解压后\HiEasyX-Ver0.4.1\HiEasyX-Ver0.4.1\HiEasyX\HiEasyX\HiGif.h" />
+    <ClInclude Include="..\..\..\..\..\..\桌面互通\压缩文件\C++\解压后\HiEasyX-Ver0.4.1\HiEasyX-Ver0.4.1\HiEasyX\HiEasyX\HiGUI\Button.h" />
+    <ClInclude Include="..\..\..\..\..\..\桌面互通\压缩文件\C++\解压后\HiEasyX-Ver0.4.1\HiEasyX-Ver0.4.1\HiEasyX\HiEasyX\HiGUI\ControlBase.h" />
+    <ClInclude Include="..\..\..\..\..\..\桌面互通\压缩文件\C++\解压后\HiEasyX-Ver0.4.1\HiEasyX-Ver0.4.1\HiEasyX\HiEasyX\HiGUI\HiGUI.h" />
+    <ClInclude Include="..\..\..\..\..\..\桌面互通\压缩文件\C++\解压后\HiEasyX-Ver0.4.1\HiEasyX-Ver0.4.1\HiEasyX\HiEasyX\HiGUI\Page.h" />
+    <ClInclude Include="..\..\..\..\..\..\桌面互通\压缩文件\C++\解压后\HiEasyX-Ver0.4.1\HiEasyX-Ver0.4.1\HiEasyX\HiEasyX\HiGUI\ProgressCtrl.h" />
+    <ClInclude Include="..\..\..\..\..\..\桌面互通\压缩文件\C++\解压后\HiEasyX-Ver0.4.1\HiEasyX-Ver0.4.1\HiEasyX\HiEasyX\HiGUI\ScrollBar.h" />
+    <ClInclude Include="..\..\..\..\..\..\桌面互通\压缩文件\C++\解压后\HiEasyX-Ver0.4.1\HiEasyX-Ver0.4.1\HiEasyX\HiEasyX\HiGUI\Static.h" />
+    <ClInclude Include="..\..\..\..\..\..\桌面互通\压缩文件\C++\解压后\HiEasyX-Ver0.4.1\HiEasyX-Ver0.4.1\HiEasyX\HiEasyX\HiIcon.h" />
+    <ClInclude Include="..\..\..\..\..\..\桌面互通\压缩文件\C++\解压后\HiEasyX-Ver0.4.1\HiEasyX-Ver0.4.1\HiEasyX\HiEasyX\HiMacro.h" />
+    <ClInclude Include="..\..\..\..\..\..\桌面互通\压缩文件\C++\解压后\HiEasyX-Ver0.4.1\HiEasyX-Ver0.4.1\HiEasyX\HiEasyX\HiMouseDrag.h" />
+    <ClInclude Include="..\..\..\..\..\..\桌面互通\压缩文件\C++\解压后\HiEasyX-Ver0.4.1\HiEasyX-Ver0.4.1\HiEasyX\HiEasyX\HiMusicMCI.h" />
+    <ClInclude Include="..\..\..\..\..\..\桌面互通\压缩文件\C++\解压后\HiEasyX-Ver0.4.1\HiEasyX-Ver0.4.1\HiEasyX\HiEasyX\HiStart.h" />
+    <ClInclude Include="..\..\..\..\..\..\桌面互通\压缩文件\C++\解压后\HiEasyX-Ver0.4.1\HiEasyX-Ver0.4.1\HiEasyX\HiEasyX\HiSysGUI\HiSysGUI.h" />
+    <ClInclude Include="..\..\..\..\..\..\桌面互通\压缩文件\C++\解压后\HiEasyX-Ver0.4.1\HiEasyX-Ver0.4.1\HiEasyX\HiEasyX\HiSysGUI\SysButton.h" />
+    <ClInclude Include="..\..\..\..\..\..\桌面互通\压缩文件\C++\解压后\HiEasyX-Ver0.4.1\HiEasyX-Ver0.4.1\HiEasyX\HiEasyX\HiSysGUI\SysCheckBox.h" />
+    <ClInclude Include="..\..\..\..\..\..\桌面互通\压缩文件\C++\解压后\HiEasyX-Ver0.4.1\HiEasyX-Ver0.4.1\HiEasyX\HiEasyX\HiSysGUI\SysComboBox.h" />
+    <ClInclude Include="..\..\..\..\..\..\桌面互通\压缩文件\C++\解压后\HiEasyX-Ver0.4.1\HiEasyX-Ver0.4.1\HiEasyX\HiEasyX\HiSysGUI\SysControlBase.h" />
+    <ClInclude Include="..\..\..\..\..\..\桌面互通\压缩文件\C++\解压后\HiEasyX-Ver0.4.1\HiEasyX-Ver0.4.1\HiEasyX\HiEasyX\HiSysGUI\SysEdit.h" />
+    <ClInclude Include="..\..\..\..\..\..\桌面互通\压缩文件\C++\解压后\HiEasyX-Ver0.4.1\HiEasyX-Ver0.4.1\HiEasyX\HiEasyX\HiSysGUI\SysGroup.h" />
+    <ClInclude Include="..\..\..\..\..\..\桌面互通\压缩文件\C++\解压后\HiEasyX-Ver0.4.1\HiEasyX-Ver0.4.1\HiEasyX\HiEasyX\HiSysGUI\SysGroupBox.h" />
+    <ClInclude Include="..\..\..\..\..\..\桌面互通\压缩文件\C++\解压后\HiEasyX-Ver0.4.1\HiEasyX-Ver0.4.1\HiEasyX\HiEasyX\HiSysGUI\SysRadioButton.h" />
+    <ClInclude Include="..\..\..\..\..\..\桌面互通\压缩文件\C++\解压后\HiEasyX-Ver0.4.1\HiEasyX-Ver0.4.1\HiEasyX\HiEasyX\HiSysGUI\SysStatic.h" />
+    <ClInclude Include="..\..\..\..\..\..\桌面互通\压缩文件\C++\解压后\HiEasyX-Ver0.4.1\HiEasyX-Ver0.4.1\HiEasyX\HiEasyX\HiWindow.h" />
+    <ClInclude Include="include\includeALL.hpp" />
+    <ClInclude Include="include\JsonManager.h" />
+    <ClInclude Include="include\LS\LsDraw\LsColor.h" />
+    <ClInclude Include="include\LS\LsUI\LsDPIManager.h" />
+    <ClInclude Include="include\LS\LsUI\LsButton.h" />
+    <ClInclude Include="include\LS\LsUI\LsSlider.h" />
+    <ClInclude Include="include\LS\LsWinodwStyle.h" />
+    <ClInclude Include="include\MainWindow.h" />
+    <ClInclude Include="include\TimeDeal.h" />
+    <ClInclude Include="include\transparentWindow.h" />
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="HiEasyX_ver4_MyPorject1.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\Release\hacimiIcon.ico" />
+    <Image Include="resource\china.bmp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

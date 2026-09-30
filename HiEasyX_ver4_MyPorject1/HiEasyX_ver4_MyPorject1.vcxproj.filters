@@ -1,0 +1,265 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\..\桌面互通\压缩文件\C++\解压后\HiEasyX-Ver0.4.1\HiEasyX-Ver0.4.1\HiEasyX\HiEasyX\HiCanvas.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\桌面互通\压缩文件\C++\解压后\HiEasyX-Ver0.4.1\HiEasyX-Ver0.4.1\HiEasyX\HiEasyX\HiContainer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\桌面互通\压缩文件\C++\解压后\HiEasyX-Ver0.4.1\HiEasyX-Ver0.4.1\HiEasyX\HiEasyX\HiDrawingProperty.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\桌面互通\压缩文件\C++\解压后\HiEasyX-Ver0.4.1\HiEasyX-Ver0.4.1\HiEasyX\HiEasyX\HiFPS.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\桌面互通\压缩文件\C++\解压后\HiEasyX-Ver0.4.1\HiEasyX-Ver0.4.1\HiEasyX\HiEasyX\HiFunc.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\桌面互通\压缩文件\C++\解压后\HiEasyX-Ver0.4.1\HiEasyX-Ver0.4.1\HiEasyX\HiEasyX\HiGdiplus.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\桌面互通\压缩文件\C++\解压后\HiEasyX-Ver0.4.1\HiEasyX-Ver0.4.1\HiEasyX\HiEasyX\HiGif.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\桌面互通\压缩文件\C++\解压后\HiEasyX-Ver0.4.1\HiEasyX-Ver0.4.1\HiEasyX\HiEasyX\HiGUI\Button.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\桌面互通\压缩文件\C++\解压后\HiEasyX-Ver0.4.1\HiEasyX-Ver0.4.1\HiEasyX\HiEasyX\HiGUI\ControlBase.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\桌面互通\压缩文件\C++\解压后\HiEasyX-Ver0.4.1\HiEasyX-Ver0.4.1\HiEasyX\HiEasyX\HiGUI\Page.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\桌面互通\压缩文件\C++\解压后\HiEasyX-Ver0.4.1\HiEasyX-Ver0.4.1\HiEasyX\HiEasyX\HiGUI\ProgressCtrl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\桌面互通\压缩文件\C++\解压后\HiEasyX-Ver0.4.1\HiEasyX-Ver0.4.1\HiEasyX\HiEasyX\HiGUI\ScrollBar.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\桌面互通\压缩文件\C++\解压后\HiEasyX-Ver0.4.1\HiEasyX-Ver0.4.1\HiEasyX\HiEasyX\HiGUI\Static.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\桌面互通\压缩文件\C++\解压后\HiEasyX-Ver0.4.1\HiEasyX-Ver0.4.1\HiEasyX\HiEasyX\HiIcon.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\桌面互通\压缩文件\C++\解压后\HiEasyX-Ver0.4.1\HiEasyX-Ver0.4.1\HiEasyX\HiEasyX\HiMouseDrag.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\桌面互通\压缩文件\C++\解压后\HiEasyX-Ver0.4.1\HiEasyX-Ver0.4.1\HiEasyX\HiEasyX\HiMusicMCI.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\桌面互通\压缩文件\C++\解压后\HiEasyX-Ver0.4.1\HiEasyX-Ver0.4.1\HiEasyX\HiEasyX\HiStart.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\桌面互通\压缩文件\C++\解压后\HiEasyX-Ver0.4.1\HiEasyX-Ver0.4.1\HiEasyX\HiEasyX\HiSysGUI\SysButton.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\桌面互通\压缩文件\C++\解压后\HiEasyX-Ver0.4.1\HiEasyX-Ver0.4.1\HiEasyX\HiEasyX\HiSysGUI\SysCheckBox.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\桌面互通\压缩文件\C++\解压后\HiEasyX-Ver0.4.1\HiEasyX-Ver0.4.1\HiEasyX\HiEasyX\HiSysGUI\SysComboBox.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\桌面互通\压缩文件\C++\解压后\HiEasyX-Ver0.4.1\HiEasyX-Ver0.4.1\HiEasyX\HiEasyX\HiSysGUI\SysControlBase.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\桌面互通\压缩文件\C++\解压后\HiEasyX-Ver0.4.1\HiEasyX-Ver0.4.1\HiEasyX\HiEasyX\HiSysGUI\SysEdit.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\桌面互通\压缩文件\C++\解压后\HiEasyX-Ver0.4.1\HiEasyX-Ver0.4.1\HiEasyX\HiEasyX\HiSysGUI\SysGroup.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\桌面互通\压缩文件\C++\解压后\HiEasyX-Ver0.4.1\HiEasyX-Ver0.4.1\HiEasyX\HiEasyX\HiSysGUI\SysGroupBox.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\桌面互通\压缩文件\C++\解压后\HiEasyX-Ver0.4.1\HiEasyX-Ver0.4.1\HiEasyX\HiEasyX\HiSysGUI\SysRadioButton.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\桌面互通\压缩文件\C++\解压后\HiEasyX-Ver0.4.1\HiEasyX-Ver0.4.1\HiEasyX\HiEasyX\HiSysGUI\SysStatic.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\桌面互通\压缩文件\C++\解压后\HiEasyX-Ver0.4.1\HiEasyX-Ver0.4.1\HiEasyX\HiEasyX\HiWindow.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="include\transparentWindow.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="include\MainWindow.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="include\LS\LsWindowStyle.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="include\LS\LsUI\LsButton.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="include\LS\LsUI\LsSlider.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="include\LS\LsUI\LsDPIManager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\..\桌面互通\压缩文件\C++\解压后\HiEasyX-Ver0.4.1\HiEasyX-Ver0.4.1\HiEasyX\HiEasyX.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\桌面互通\压缩文件\C++\解压后\HiEasyX-Ver0.4.1\HiEasyX-Ver0.4.1\HiEasyX\HiEasyX\HiCanvas.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\桌面互通\压缩文件\C++\解压后\HiEasyX-Ver0.4.1\HiEasyX-Ver0.4.1\HiEasyX\HiEasyX\HiContainer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\桌面互通\压缩文件\C++\解压后\HiEasyX-Ver0.4.1\HiEasyX-Ver0.4.1\HiEasyX\HiEasyX\HiDef.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\桌面互通\压缩文件\C++\解压后\HiEasyX-Ver0.4.1\HiEasyX-Ver0.4.1\HiEasyX\HiEasyX\HiDrawingProperty.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\桌面互通\压缩文件\C++\解压后\HiEasyX-Ver0.4.1\HiEasyX-Ver0.4.1\HiEasyX\HiEasyX\HiFPS.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\桌面互通\压缩文件\C++\解压后\HiEasyX-Ver0.4.1\HiEasyX-Ver0.4.1\HiEasyX\HiEasyX\HiFunc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\桌面互通\压缩文件\C++\解压后\HiEasyX-Ver0.4.1\HiEasyX-Ver0.4.1\HiEasyX\HiEasyX\HiGdiplus.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\桌面互通\压缩文件\C++\解压后\HiEasyX-Ver0.4.1\HiEasyX-Ver0.4.1\HiEasyX\HiEasyX\HiGif.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\桌面互通\压缩文件\C++\解压后\HiEasyX-Ver0.4.1\HiEasyX-Ver0.4.1\HiEasyX\HiEasyX\HiGUI\Button.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\桌面互通\压缩文件\C++\解压后\HiEasyX-Ver0.4.1\HiEasyX-Ver0.4.1\HiEasyX\HiEasyX\HiGUI\ControlBase.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\桌面互通\压缩文件\C++\解压后\HiEasyX-Ver0.4.1\HiEasyX-Ver0.4.1\HiEasyX\HiEasyX\HiGUI\HiGUI.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\桌面互通\压缩文件\C++\解压后\HiEasyX-Ver0.4.1\HiEasyX-Ver0.4.1\HiEasyX\HiEasyX\HiGUI\Page.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\桌面互通\压缩文件\C++\解压后\HiEasyX-Ver0.4.1\HiEasyX-Ver0.4.1\HiEasyX\HiEasyX\HiGUI\ProgressCtrl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\桌面互通\压缩文件\C++\解压后\HiEasyX-Ver0.4.1\HiEasyX-Ver0.4.1\HiEasyX\HiEasyX\HiGUI\ScrollBar.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\桌面互通\压缩文件\C++\解压后\HiEasyX-Ver0.4.1\HiEasyX-Ver0.4.1\HiEasyX\HiEasyX\HiGUI\Static.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\桌面互通\压缩文件\C++\解压后\HiEasyX-Ver0.4.1\HiEasyX-Ver0.4.1\HiEasyX\HiEasyX\HiIcon.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\桌面互通\压缩文件\C++\解压后\HiEasyX-Ver0.4.1\HiEasyX-Ver0.4.1\HiEasyX\HiEasyX\HiMacro.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\桌面互通\压缩文件\C++\解压后\HiEasyX-Ver0.4.1\HiEasyX-Ver0.4.1\HiEasyX\HiEasyX\HiMouseDrag.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\桌面互通\压缩文件\C++\解压后\HiEasyX-Ver0.4.1\HiEasyX-Ver0.4.1\HiEasyX\HiEasyX\HiMusicMCI.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\桌面互通\压缩文件\C++\解压后\HiEasyX-Ver0.4.1\HiEasyX-Ver0.4.1\HiEasyX\HiEasyX\HiStart.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\桌面互通\压缩文件\C++\解压后\HiEasyX-Ver0.4.1\HiEasyX-Ver0.4.1\HiEasyX\HiEasyX\HiSysGUI\HiSysGUI.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\桌面互通\压缩文件\C++\解压后\HiEasyX-Ver0.4.1\HiEasyX-Ver0.4.1\HiEasyX\HiEasyX\HiSysGUI\SysButton.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\桌面互通\压缩文件\C++\解压后\HiEasyX-Ver0.4.1\HiEasyX-Ver0.4.1\HiEasyX\HiEasyX\HiSysGUI\SysCheckBox.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\桌面互通\压缩文件\C++\解压后\HiEasyX-Ver0.4.1\HiEasyX-Ver0.4.1\HiEasyX\HiEasyX\HiSysGUI\SysComboBox.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\桌面互通\压缩文件\C++\解压后\HiEasyX-Ver0.4.1\HiEasyX-Ver0.4.1\HiEasyX\HiEasyX\HiSysGUI\SysControlBase.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\桌面互通\压缩文件\C++\解压后\HiEasyX-Ver0.4.1\HiEasyX-Ver0.4.1\HiEasyX\HiEasyX\HiSysGUI\SysEdit.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\桌面互通\压缩文件\C++\解压后\HiEasyX-Ver0.4.1\HiEasyX-Ver0.4.1\HiEasyX\HiEasyX\HiSysGUI\SysGroup.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\桌面互通\压缩文件\C++\解压后\HiEasyX-Ver0.4.1\HiEasyX-Ver0.4.1\HiEasyX\HiEasyX\HiSysGUI\SysGroupBox.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\桌面互通\压缩文件\C++\解压后\HiEasyX-Ver0.4.1\HiEasyX-Ver0.4.1\HiEasyX\HiEasyX\HiSysGUI\SysRadioButton.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\桌面互通\压缩文件\C++\解压后\HiEasyX-Ver0.4.1\HiEasyX-Ver0.4.1\HiEasyX\HiEasyX\HiSysGUI\SysStatic.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\桌面互通\压缩文件\C++\解压后\HiEasyX-Ver0.4.1\HiEasyX-Ver0.4.1\HiEasyX\HiEasyX\HiWindow.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\MainWindow.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\transparentWindow.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\includeALL.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\TimeDeal.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\JsonManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\LS\LsWinodwStyle.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\LS\LsUI\LsButton.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\LS\LsUI\LsSlider.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\LS\LsUI\LsDPIManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\LS\LsDraw\LsColor.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="HiEasyX_ver4_MyPorject1.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\Release\hacimiIcon.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resource\china.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
