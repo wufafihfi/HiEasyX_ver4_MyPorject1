@@ -175,7 +175,7 @@ void init_MainWindow(hiex::FPScontrol* _MainFPS_) {
     g_OriginWndProc = (WNDPROC)GetWindowLongPtr(mainWindow_hwnd.GetHandle(), GWLP_WNDPROC);
     SetWindowLongPtr(mainWindow_hwnd.GetHandle(), GWLP_WNDPROC, (LONG_PTR)TrayWndProc);
 
-    mainWindow_hwnd.CreateTray(L"屏幕工具-托盘");
+    mainWindow_hwnd.CreateTray(L"屏幕时钟-托盘");
     hMenu = CreatePopupMenu();
     HINSTANCE hInst = GetModuleHandle(NULL);
     HBITMAP hBitmap = LoadBitmap(hInst, MAKEINTRESOURCE(IDB_MENU_TITLE));
